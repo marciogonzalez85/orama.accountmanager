@@ -12,6 +12,8 @@ O acesso ao servidor MSSQL se dá através do host: <code>localhost:1500</code>,
 
 O swagger da api se encontra em: <code>http://localhost:8090/swagger/index.html</code><br />
 
+O acesso à dashboard do RabbitMQ se encontra em: <code>http://localhost:15672/</code> (user: guest | password: guest) <br />
+
 As chamadas devem incluir o header <code>x-api-key</code>.<br /> 
 Esse valor é configurado em <code>services.account_manager_api.environment.SECRET_API_KEY</code> no arquivo docker-compose.yml
 
