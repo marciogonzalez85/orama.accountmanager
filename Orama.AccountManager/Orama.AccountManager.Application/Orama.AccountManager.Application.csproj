@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.7.1" />
+    <PackageReference Include="MediatR" Version="12.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Orama.AccountManager.CrossCutting\Orama.AccountManager.CrossCutting.csproj" />
+    <ProjectReference Include="..\Orama.AccountManager.Infrastructure\Orama.AccountManager.Infrastructure.csproj" />
+    <ProjectReference Include="..\Orama.AccountManager.Model\Orama.AccountManager.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\BankAccounts\" />
+  </ItemGroup>
+
+</Project>

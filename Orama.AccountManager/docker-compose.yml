@@ -1,0 +1,107 @@
+version: '3.8'
+
+services:
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    restart: always
+    environment:
+      SA_PASSWORD: "oramaDbServerPass@#"
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Developer"
+    ports:
+      - "1500:1433"
+    networks:
+      - account_manager_net
+      
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    restart: always
+    hostname: rabbitmq
+    ports:
+        - 5672:5672
+        - 15672:15672
+    volumes:
+        - ~/.docker-conf/rabbitmq/data/:/var/lib/rabbitmq/
+        - ~/.docker-conf/rabbitmq/log/:/var/log/rabbitmq
+    healthcheck:
+      test: rabbitmq-diagnostics -q ping
+      interval: 5s
+      timeout: 15s
+      retries: 3
+    environment:
+      RABBITMQ_DEFAULT_USER: "guest"
+      RABBITMQ_DEFAULT_PASS: "guest"
+    networks:
+      - account_manager_net
+   
+  account_manager_api:
+    image: account_manager_api
+    restart: on-failure
+    build:
+        context: ./
+        dockerfile: ./Orama.AccountManager.Api/Dockerfile
+    ports:
+        - 8090:80
+    networks:
+        - account_manager_net
+    depends_on:
+        - mssql
+        - rabbitmq
+    environment:
+        - SECRET_API_KEY=64AF710D1A5B41128DB6046F8BA8D8A5
+        - ACCOUNTMANAGER_DBSERVER=mssql
+        - ACCOUNTMANAGER_DBNAME=account_manager
+        - ACCOUNTMANAGER_DBUSER=sa
+        - ACCOUNTMANAGER_DBPASSWORD=oramaDbServerPass@#
+        - DOTNET_ENVIRONMENT=Development
+        - RABBITMQ_HOSTNAME=rabbitmq
+        - RABBITMQ_USERNAME=guest
+        - RABBITMQ_PASSWORD=guest
+        
+  account_manager_transaction_consumer:
+    image: account_manager_transaction_consumer
+    restart: always
+    build:
+        context: ./
+        dockerfile: ./Orama.AccountManager.TransactionsConsumer/Dockerfile
+    networks:
+        - account_manager_net
+    depends_on:
+        - mssql
+        - rabbitmq
+    environment:
+        - ACCOUNTMANAGER_DBSERVER=mssql
+        - ACCOUNTMANAGER_DBNAME=account_manager
+        - ACCOUNTMANAGER_DBUSER=sa
+        - ACCOUNTMANAGER_DBPASSWORD=oramaDbServerPass@#
+        - DOTNET_ENVIRONMENT=Development
+        - RABBITMQ_HOSTNAME=rabbitmq
+        - RABBITMQ_USERNAME=guest
+        - RABBITMQ_PASSWORD=guest
+        
+  account_manager_notifications_consumer:
+    image: account_manager_notifications_consumer
+    restart: always
+    build:
+        context: ./
+        dockerfile: ./Orama.AccountManager.NotificationsConsumer/Dockerfile
+    networks:
+        - account_manager_net
+    depends_on:
+        - mssql
+        - rabbitmq
+    environment:
+        - ACCOUNTMANAGER_DBSERVER=mssql
+        - ACCOUNTMANAGER_DBNAME=account_manager
+        - ACCOUNTMANAGER_DBUSER=sa
+        - ACCOUNTMANAGER_DBPASSWORD=oramaDbServerPass@#
+        - DOTNET_ENVIRONMENT=Development
+        - RABBITMQ_HOSTNAME=rabbitmq
+        - RABBITMQ_USERNAME=guest
+        - RABBITMQ_PASSWORD=guest
+    
+networks:
+    account_manager_net:
+      driver: bridge
+    
+    

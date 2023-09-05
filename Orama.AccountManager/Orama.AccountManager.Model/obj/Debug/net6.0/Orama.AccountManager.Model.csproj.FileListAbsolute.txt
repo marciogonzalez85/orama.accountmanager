@@ -1,0 +1,12 @@
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Model\bin\Debug\net6.0\Orama.AccountManager.Model.deps.json
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Model\bin\Debug\net6.0\Orama.AccountManager.Model.dll
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Model\bin\Debug\net6.0\Orama.AccountManager.Model.pdb
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Model\obj\Debug\net6.0\Orama.AccountManager.Model.csproj.AssemblyReference.cache
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Model\obj\Debug\net6.0\Orama.AccountManager.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Model\obj\Debug\net6.0\Orama.AccountManager.Model.AssemblyInfoInputs.cache
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Model\obj\Debug\net6.0\Orama.AccountManager.Model.AssemblyInfo.cs
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Model\obj\Debug\net6.0\Orama.AccountManager.Model.csproj.CoreCompileInputs.cache
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Model\obj\Debug\net6.0\Orama.AccountManager.Model.dll
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Model\obj\Debug\net6.0\refint\Orama.AccountManager.Model.dll
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Model\obj\Debug\net6.0\Orama.AccountManager.Model.pdb
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Model\obj\Debug\net6.0\ref\Orama.AccountManager.Model.dll

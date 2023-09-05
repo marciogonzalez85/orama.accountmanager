@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\Orama.AccountManager</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Serilog" Version="3.0.1" />
+    <PackageReference Include="Serilog.Enrichers.CorrelationId" Version="3.0.1" />
+    <PackageReference Include="Serilog.Exceptions" Version="8.4.0" />
+    <PackageReference Include="Serilog.Sinks.Async" Version="1.5.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="4.2.0-dev-00918" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Orama.AccountManager.Application\Orama.AccountManager.Application.csproj" />
+    <ProjectReference Include="..\Orama.AccountManager.CrossCutting\Orama.AccountManager.CrossCutting.csproj" />
+    <ProjectReference Include="..\Orama.AccountManager.Infrastructure\Orama.AccountManager.Infrastructure.csproj" />
+    <ProjectReference Include="..\Orama.AccountManager.Model\Orama.AccountManager.Model.csproj" />
+  </ItemGroup>
+
+</Project>

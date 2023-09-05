@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Orama.AccountManager.TransactionsConsumer": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

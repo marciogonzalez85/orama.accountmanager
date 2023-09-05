@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FKnZEvqor+WWjuuvwEfN2MfNa/N1/L4rppwt+x6Oxy8=",
+  "Source": "Orama.AccountManager.Api",
+  "BasePath": "_content/Orama.AccountManager.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

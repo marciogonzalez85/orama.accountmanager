@@ -1,0 +1,12 @@
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.CrossCutting\bin\Debug\net6.0\Orama.AccountManager.CrossCutting.deps.json
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.CrossCutting\bin\Debug\net6.0\Orama.AccountManager.CrossCutting.dll
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.CrossCutting\bin\Debug\net6.0\Orama.AccountManager.CrossCutting.pdb
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.CrossCutting\obj\Debug\net6.0\Orama.AccountManager.CrossCutting.csproj.AssemblyReference.cache
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.CrossCutting\obj\Debug\net6.0\Orama.AccountManager.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.CrossCutting\obj\Debug\net6.0\Orama.AccountManager.CrossCutting.AssemblyInfoInputs.cache
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.CrossCutting\obj\Debug\net6.0\Orama.AccountManager.CrossCutting.AssemblyInfo.cs
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.CrossCutting\obj\Debug\net6.0\Orama.AccountManager.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.CrossCutting\obj\Debug\net6.0\Orama.AccountManager.CrossCutting.dll
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.CrossCutting\obj\Debug\net6.0\refint\Orama.AccountManager.CrossCutting.dll
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.CrossCutting\obj\Debug\net6.0\Orama.AccountManager.CrossCutting.pdb
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.CrossCutting\obj\Debug\net6.0\ref\Orama.AccountManager.CrossCutting.dll

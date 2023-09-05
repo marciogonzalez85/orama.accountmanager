@@ -1,0 +1,15 @@
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Infrastructure\bin\Debug\net6.0\Orama.AccountManager.Infrastructure.deps.json
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Infrastructure\bin\Debug\net6.0\Orama.AccountManager.Infrastructure.dll
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Infrastructure\bin\Debug\net6.0\Orama.AccountManager.Infrastructure.pdb
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Infrastructure\bin\Debug\net6.0\Orama.AccountManager.Model.dll
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Infrastructure\bin\Debug\net6.0\Orama.AccountManager.Model.pdb
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Infrastructure\obj\Debug\net6.0\Orama.AccountManager.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Infrastructure\obj\Debug\net6.0\Orama.AccountManager.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Infrastructure\obj\Debug\net6.0\Orama.AccountManager.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Infrastructure\obj\Debug\net6.0\Orama.AccountManager.Infrastructure.AssemblyInfo.cs
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Infrastructure\obj\Debug\net6.0\Orama.AccountManager.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Infrastructure\obj\Debug\net6.0\Orama.AccountManager.Infrastructure.csproj.CopyComplete
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Infrastructure\obj\Debug\net6.0\Orama.AccountManager.Infrastructure.dll
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Infrastructure\obj\Debug\net6.0\refint\Orama.AccountManager.Infrastructure.dll
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Infrastructure\obj\Debug\net6.0\Orama.AccountManager.Infrastructure.pdb
+C:\Users\marci\source\repos\Orama.AccountManager\Orama.AccountManager.Infrastructure\obj\Debug\net6.0\ref\Orama.AccountManager.Infrastructure.dll
